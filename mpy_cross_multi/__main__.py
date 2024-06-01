@@ -28,7 +28,7 @@ def _run():
         idx = args.index("--micropython")
     except ValueError:
         # default if argument is not given
-        mp_ver = "1.22"
+        mp_ver = "1.23"
     else:
         # argument is given
         mp_ver = args.pop(idx + 1)

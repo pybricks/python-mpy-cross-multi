@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mpy-cross-multi"
-version = "1.1.0"
+version = "1.1.1"
 description = "MicroPython cross-compiler targeting multiple runtime versions."
 authors = ["David Lechner <david@pybricks.com>"]
 license = "MIT"
