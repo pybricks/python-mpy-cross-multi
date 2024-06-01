@@ -73,6 +73,24 @@ files = [
 ]
 
 [[package]]
+name = "mpy-cross-v6-3"
+version = "1.0.0"
+description = "Python wrapper for the mpy-cross tool from MicroPython."
+optional = false
+python-versions = "*"
+files = [
+    {file = "mpy_cross_v6.3-1.0.0-py3-none-macosx_10_9_x86_64.whl", hash = "sha256:0e300826212ed6b7e71c78b5545a69e890772a664d8c7f75edf294e3eb24641f"},
+    {file = "mpy_cross_v6.3-1.0.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:daa71057fc4be2b757a8b4b01fadf92b258f7416bac279f4dc11fb799b59fd25"},
+    {file = "mpy_cross_v6.3-1.0.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:91529223a892fe2b79b5d769bf912815dcf937ab90e252caae5d871aee21fc1c"},
+    {file = "mpy_cross_v6.3-1.0.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:768d43dae8b05910e3682f6d9287a1c1cc20dfbe198339dfcd1e676c749ef7b0"},
+    {file = "mpy_cross_v6.3-1.0.0-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:559d2357321f6a14b9bed6c2d6e4fe33fbd8012fdcfa7e05488e7f5a297aa409"},
+    {file = "mpy_cross_v6.3-1.0.0-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:e63ace8f8a9b4780ffa3037655d7241253b92baeabdc55ad6fd69857bbb6c95d"},
+    {file = "mpy_cross_v6.3-1.0.0-py3-none-win32.whl", hash = "sha256:085adaf9072c9b0fea97ee99dc59fdc39df1f4d054656921505b79390e8927a7"},
+    {file = "mpy_cross_v6.3-1.0.0-py3-none-win_amd64.whl", hash = "sha256:0082e69148e7e5aab3bc264b823e697cbd44284884a6dd12990a4b21ff7b3a24"},
+    {file = "mpy_cross_v6_3-1.0.0.tar.gz", hash = "sha256:58e233609598d0a72f71ec907bccdc7d3c2ea08de85cc86a06dbaeb3382df9d8"},
+]
+
+[[package]]
 name = "ruff"
 version = "0.4.3"
 description = "An extremely fast Python linter and code formatter, written in Rust."
@@ -112,4 +130,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "8bf76cbd1be0118de847c3ac9d33407b8359138e191e1aa340f8494335d84bfc"
+content-hash = "1419dc4b3c6ed44507646b61963494e8532530542cd65dba81cb05ff3d4f91bb"

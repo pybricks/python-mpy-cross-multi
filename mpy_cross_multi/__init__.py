@@ -17,8 +17,11 @@ def _mp_version_to_mpy_abi_version(mp_ver: Version) -> str:
         TypeError: If the input is not a valid version string
         NotImplementedError: If the MicroPython version is not supported
     """
+    if mp_ver.match(">=1.24.0"):
+        raise NotImplementedError("MicroPython version must be <1.24.0")
+
     if mp_ver.match(">=1.23.0"):
-        raise NotImplementedError("MicroPython version must be <1.23.0")
+        return "6.3"
 
     if mp_ver.match(">=1.22.0"):
         return "6.2"
