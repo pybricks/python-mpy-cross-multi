@@ -5,6 +5,7 @@ description = "MicroPython cross-compiler targeting multiple runtime versions."
 authors = ["David Lechner <david@pybricks.com>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/pybricks/python-mpy-cross-multi"
 
 [tool.poetry.scripts]
 "mpy-cross-multi" = "mpy_cross_multi.__main__:_run"
