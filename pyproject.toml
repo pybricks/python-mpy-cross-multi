@@ -10,7 +10,7 @@ readme = "README.md"
 "mpy-cross-multi" = "mpy_cross_multi.__main__:_run"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 mpy-cross-v5 = "^1.0.2"
 mpy-cross-v6 = "^1.0.2"
 "mpy-cross-v6.1" = "^1.0.1"
