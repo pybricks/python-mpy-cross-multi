@@ -1,7 +1,7 @@
 from semver.version import Version
 
 
-def _mp_version_to_mpy_abi_version(mp_ver: Version) -> str:
+def mp_version_to_mpy_abi_version(mp_ver: Version) -> str:
     """
     Convert MicroPython version to mpy-cross ABI version.
 

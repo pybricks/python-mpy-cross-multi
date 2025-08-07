@@ -5,7 +5,7 @@ import itertools
 
 from semver.version import Version
 
-from . import _mp_version_to_mpy_abi_version
+from mpy_cross_multi import mp_version_to_mpy_abi_version
 
 
 def _run():
@@ -46,7 +46,7 @@ def _run():
         sys.exit(1)
 
     try:
-        abi = _mp_version_to_mpy_abi_version(mp_semver)
+        abi = mp_version_to_mpy_abi_version(mp_semver)
     except NotImplementedError:
         print(
             f"Error: targeting MicroPython v{mp_semver} is not supported",
