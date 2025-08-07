@@ -27,7 +27,3 @@ It has an optional extra command line option to target older MicroPython
 runtimes. The oldest support MicroPython runtime is v1.12.
 
     mpy-cross-multi --micropython 1.22 ...
-
-### API
-
-TODO
