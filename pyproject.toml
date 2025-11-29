@@ -22,8 +22,23 @@ Homepage = "https://github.com/pybricks/python-mpy-cross-multi"
 mpy-cross-multi = "mpy_cross_multi.__main__:_run"
 
 [dependency-groups]
-dev = ["ruff>=0.12.8"]
+dev = [
+    "ruff>=0.12.8",
+    "pytest",
+    "setuptools",
+    "wheel",
+]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.uv.sources]
+"mpy-cross-v5" = { path = "projects/mpy-cross-v5" }
+"mpy-cross-v6" = { path = "projects/mpy-cross-v6" }
+"mpy-cross-v6.1" = { path = "projects/mpy-cross-v6.1" }
+"mpy-cross-v6.2" = { path = "projects/mpy-cross-v6.2" }
+"mpy-cross-v6.3" = { path = "projects/mpy-cross-v6.3" }
+
+[tool.ruff]
+extend-exclude = ["micropython"]

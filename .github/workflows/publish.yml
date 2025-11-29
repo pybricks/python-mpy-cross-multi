@@ -2,8 +2,9 @@
 name: Publish Python Package
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - mpy-cross-multi/v*
 
 permissions:
   contents: read

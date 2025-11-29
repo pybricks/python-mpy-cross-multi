@@ -1,0 +1,20 @@
+[submodule "projects/mpy-cross-v5/micropython"]
+	path = projects/mpy-cross-v5/micropython
+	url = https://github.com/pybricks/micropython
+	branch = python-mpy-cross-v5
+[submodule "projects/mpy-cross-v6/micropython"]
+	path = projects/mpy-cross-v6/micropython
+	url = https://github.com/pybricks/micropython
+	branch = python-mpy-cross-v6
+[submodule "projects/mpy-cross-v6.1/micropython"]
+	path = projects/mpy-cross-v6.1/micropython
+	url = https://github.com/pybricks/micropython
+	branch = python-mpy-cross-v6.1
+[submodule "projects/mpy-cross-v6.2/micropython"]
+	path = projects/mpy-cross-v6.2/micropython
+	url = https://github.com/pybricks/micropython
+	branch = python-mpy-cross-v6.2
+[submodule "projects/mpy-cross-v6.3/micropython"]
+	path = projects/mpy-cross-v6.3/micropython
+	url = https://github.com/pybricks/micropython
+	branch = python-mpy-cross-v6.3
