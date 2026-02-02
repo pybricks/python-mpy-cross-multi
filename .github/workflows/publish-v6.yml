@@ -39,7 +39,7 @@ jobs:
         with:
           package-dir: ./projects/mpy-cross-v6
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: artifact-${{ matrix.os }}
           path: ./wheelhouse/*.whl
@@ -55,7 +55,7 @@ jobs:
       - name: Build sdist
         run: pipx run build --sdist projects/mpy-cross-v6
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: artifact-source
           path: projects/mpy-cross-v6/dist/*.tar.gz
