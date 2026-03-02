@@ -19,7 +19,7 @@ jobs:
     - name: Buld the distribution package
       run: pipx run build
     - name: Store the distribution package
-      uses: actions/upload-artifact@v6
+      uses: actions/upload-artifact@v7
       with:
         name: dist
         path: dist/
